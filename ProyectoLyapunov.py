@@ -29,7 +29,7 @@ def lyapunov_exponent(series, delta=1e-5):
     return slope
 
 # Cargar datos desde el archivo XLSX
-file_path = "C:/Users/DELL/OneDrive - Fundación Universitaria Konrad Lorenz/IV SEMESTRE/MODELACION I/Proyecto/data_2000_2023.xlsx"
+file_path = "data_2000_2023.xlsx"
 sheet_name = "datos"
 df = load_exchange_data(file_path, sheet_name)
 
